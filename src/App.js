@@ -13,16 +13,17 @@ import Customers from './pages/Customers';
 
 function App() {
   return (
-    <Header>
+    
       <BrowserRouter>
+      <Header>
       <Routes>
          <Route path="/Employees" element={<Employees/>} />
 
          <Route path= "/Customers" element={<Customers/>} />
       </Routes>
+      </Header>
       </BrowserRouter>
 
-   </Header>
   )
 }
 
