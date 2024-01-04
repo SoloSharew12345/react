@@ -78,7 +78,7 @@ function Employees() {
   }
   const showEmployees = true;
   return (
-    <div className="App bg-gray-300 min-h-screen my-2">
+    <div className="">
       {showEmployees ? ( 
       <>
       <div className="flex flex-wrap justify-center">
